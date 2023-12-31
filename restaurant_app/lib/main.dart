@@ -12,9 +12,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Restaurant App ui',
+      title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: Homepage(),
+      home: HomePage(),
+      theme: ThemeData(primarySwatch: Colors.pink),
     );
   }
 }
